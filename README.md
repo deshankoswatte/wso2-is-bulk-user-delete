@@ -6,10 +6,16 @@ A custom **sample** jar application developed to delete users in bulk (Makes use
 
 ### WSO2 Identity Server
 
-- Add the .csv file (A sample can be seen
-  at [here](https://raw.githubusercontent.com/deshankoswatte/wso2-is-bulk-user-delete/master/src/main/resources/bulkUsers.csv))
+- Add the .csv file (A sample content overview can be seen below)
   which contains the list of usernames to the `<IS_HOME>/repository/resources/identity/users`
   directory (create the users' folder if it does not exist).
+
+```
+UserName
+user1
+user2
+user3
+```
 
 - Add a file named `config.properties` to the same directory mentioned in the previous point with the custom
   configurations. A sample set of configurations is provided below.
